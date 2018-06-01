@@ -10,21 +10,21 @@ public class DPdemos {
 	public static void main(String[] args) {
 		Scanner pop = new Scanner(System.in);
 
-//		int n = pop.nextInt();
-//		System.out.println(fibonacciRBtr(n, new int[n + 1]));
-//		System.out.println(fibonacciSlide(n));
+		int n = pop.nextInt();
+		System.out.println(fibonacciRBtr(n, new int[n + 1]));
+		System.out.println(fibonacciSlide(n));
 		// System.out.println(BoardPath(0, 10));
-//		System.out.println(BoardPathSLide(n));
-//		System.out.println(MazePath(0, 0, n, n, new int[n + 1][n + 1]));
-//		System.out.println(MazePathI(n, n));
-//		System.out.println(MazePathSLider(3, 4));
-//		System.out.println(MazePathSLiderBUdia(3, 4));
-//		System.out.println(LCSBU("abcd", "agcfd"));
-//		System.out.println(EditDistance("saturday", "sunday"));
-//		System.out.println(EditDistanceBU("Saturday", "Sunday"));
+		System.out.println(BoardPathSLide(n));
+		System.out.println(MazePath(0, 0, n, n, new int[n + 1][n + 1]));
+		System.out.println(MazePathI(n, n));
+		System.out.println(MazePathSLider(3, 4));
+		System.out.println(MazePathSLiderBUdia(3, 4));
+		System.out.println(LCSBU("abcd", "agcfd"));
+		System.out.println(EditDistance("saturday", "sunday"));
+		System.out.println(EditDistanceBU("Saturday", "Sunday"));
 		int []arr= {1,2,3,4,5,6,7};
 		System.out.println(MCM(arr, 0, arr.length-1, new int[arr.length][arr.length]));
-//		System.out.println(MCMBU(arr));
+		System.out.println(MCMBU(arr));
 		int []wt= {1,3,4,5,7};
 		int []price= {1,4,5,7,7};
 		System.out.println(Knapsack(wt, price, 0, 7, new int[w bt.length][8]));
