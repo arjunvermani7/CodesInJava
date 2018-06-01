@@ -7,8 +7,8 @@ public class Maze1 {
 	public static void main (String[] args) {
 		
 			Scanner pop= new Scanner(System.in);
-			int N1=pop.nextInt();
-			int N2=pop.nextInt();
+			int N1 =pop.nextInt();
+			int N2 =pop.nextInt();
 			
 			String ans="";
 			
